@@ -1,1 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #003366;
+}
+
+.semestre {
+  background-color: white;
+  padding: 15px;
+  margin: 20px 0;
+  border-left: 6px solid #003366;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.semestre h2 {
+  color: #003366;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #ffe5e5;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #ffd6d6;
+}
+
+li.aprobado {
+  background: #c3e6cb;
+  text-decoration: line-through;
+  color: #333;
+}
 
